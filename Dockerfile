@@ -22,6 +22,9 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN pecl install mongodb \
     && docker-php-ext-enable mongodb
 
+# Cài đặt MongoDB driver cho Laravel
+RUN composer require jenssegers/mongodb
+
 # Thiết lập thư mục làm việc cho ứng dụng Laravel
 WORKDIR /var/www
 
