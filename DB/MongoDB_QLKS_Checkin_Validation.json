@@ -1,0 +1,36 @@
+{
+  $jsonSchema: {
+    bsonType: "object",
+    required: [
+      "NhanVienLap",
+      "Phong",
+      "NgayCheckin",
+      "NgayCheckOutDuKien",
+      "DanhSachKhachHang",
+      "TinhTrang"
+    ],
+    properties: {
+      NhanVienLap: {
+        bsonType: "string"
+      },
+      Phong: {
+        bsonType: "string"
+      },
+      NgayCheckin: {
+        bsonType: "string"
+      },
+      NgayCheckOutDuKien: {
+        bsonType: "string"
+      },
+      TinhTrang: {
+        bsonType: "string"
+      },
+      DanhSachKhachHang: {
+        bsonType: "array",
+        items: {
+          bsonType: "string"
+        }
+      }
+    }
+  }
+}

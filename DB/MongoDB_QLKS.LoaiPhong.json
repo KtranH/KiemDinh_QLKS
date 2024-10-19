@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "670e8af64226c263db72d829"
+  },
+  "MaLoai": "STD",
+  "SucChua": 2,
+  "TinhTrang": 1,
+  "DienTich": 25,
+  "MoTa": "Phòng tiêu chuẩn thoải mái cho 2 người",
+  "NoiThat": "1 giường đôi, tủ quần áo, bàn làm việc, TV",
+  "QuyDinh": "Không hút thuốc, không mang vật nuôi",
+  "TienIch": "Wi-Fi miễn phí, điều hòa, minibar",
+  "DanhSachPhong": [
+    {
+      "MaPhong": "STD101",
+      "TenPhong": "101",
+      "ViTri": 1,
+      "GiaThue": 800000,
+      "TinhTrang": 2
+    },
+    {
+      "MaPhong": "STD102",
+      "TenPhong": "102",
+      "ViTri": 1,
+      "GiaThue": 800000,
+      "TinhTrang": 1
+    },
+    {
+      "MaPhong": "STD201",
+      "TenPhong": "201",
+      "ViTri": 2,
+      "GiaThue": 850000,
+      "TinhTrang": 1
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-16T12:10:47.599Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e8af64226c263db72d82a"
+  },
+  "MaLoai": "DLX",
+  "SucChua": 3,
+  "TinhTrang": 1,
+  "DienTich": 35,
+  "MoTa": "Phòng sang trọng với không gian rộng rãi",
+  "NoiThat": "1 giường đôi, 1 giường đơn, sofa, tủ quần áo lớn, bàn làm việc, TV 55 inch",
+  "QuyDinh": "Không hút thuốc, cho phép vật nuôi nhỏ",
+  "TienIch": "Wi-Fi tốc độ cao, điều hòa, minibar, bồn tắm",
+  "DanhSachPhong": [
+    {
+      "MaPhong": "DLX301",
+      "TenPhong": "301",
+      "ViTri": 3,
+      "GiaThue": 1200000,
+      "TinhTrang": 1
+    },
+    {
+      "MaPhong": "DLX302",
+      "TenPhong": "302",
+      "ViTri": 3,
+      "GiaThue": 1200000,
+      "TinhTrang": 1
+    },
+    {
+      "MaPhong": "DLX401",
+      "TenPhong": "401",
+      "ViTri": 4,
+      "GiaThue": 1250000,
+      "TinhTrang": 1
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-16T11:57:16.361Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670e8af64226c263db72d82b"
+  },
+  "MaLoai": "SUT",
+  "SucChua": 4,
+  "TinhTrang": 1,
+  "DienTich": 50,
+  "MoTa": "Suite sang trọng với tầm nhìn panorama",
+  "NoiThat": "1 phòng ngủ với giường King, phòng khách riêng, bàn ăn, tủ quần áo walk-in, 2 TV 65 inch",
+  "QuyDinh": "Không hút thuốc, cho phép vật nuôi, người ở tối đa 4",
+  "TienIch": "Wi-Fi tốc độ cao, điều hòa, minibar, bồn tắm jacuzzi, dịch vụ phòng 24/7",
+  "DanhSachPhong": [
+    {
+      "MaPhong": "SUT501",
+      "TenPhong": "501",
+      "ViTri": 5,
+      "GiaThue": 2500000,
+      "TinhTrang": 1
+    },
+    {
+      "MaPhong": "SUT601",
+      "TenPhong": "601",
+      "ViTri": 6,
+      "GiaThue": 2800000,
+      "TinhTrang": 1
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-16T12:01:14.260Z"
+  }
+}]

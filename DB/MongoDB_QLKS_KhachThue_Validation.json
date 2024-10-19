@@ -1,0 +1,21 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'TenKhachHang',
+        'CMND',
+        'SDT'
+      ],
+      properties: {
+        TenKhachHang: {
+          bsonType: 'string'
+        },
+        CMND: {
+          bsonType: 'string'
+        },
+        SDT: {
+          bsonType: 'string'
+        }
+      }
+    }
+  }

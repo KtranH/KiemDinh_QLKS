@@ -1,0 +1,76 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'MaLoai',
+        'SucChua',
+        'TinhTrang',
+        'DienTich',
+        'MoTa',
+        'NoiThat',
+        'QuyDinh',
+        'TienIch',
+        'DanhSachPhong'
+      ],
+      properties: {
+        MaLoai: {
+          bsonType: 'string'
+        },
+        SucChua: {
+          bsonType: 'int'
+        },
+        TinhTrang: {
+          bsonType: 'int',
+          'enum': [
+            0,
+            1
+          ]
+        },
+        DienTich: {
+          bsonType: 'double'
+        },
+        MoTa: {
+          bsonType: 'string'
+        },
+        NoiThat: {
+          bsonType: 'string'
+        },
+        QuyDinh: {
+          bsonType: 'string'
+        },
+        TienIch: {
+          bsonType: 'string'
+        },
+        DanhSachPhong: {
+          bsonType: 'array',
+          items: {
+            bsonType: 'object',
+            required: [
+              'TenPhong',
+              'ViTri',
+              'GiaThue',
+              'TinhTrang'
+            ],
+            properties: {
+              TenPhong: {
+                bsonType: 'string'
+              },
+              ViTri: {
+                bsonType: 'int'
+              },
+              GiaThue: {
+                bsonType: 'double'
+              },
+              TinhTrang: {
+                bsonType: 'int',
+                'enum': [
+                  0,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }

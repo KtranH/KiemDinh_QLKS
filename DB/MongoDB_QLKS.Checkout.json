@@ -1,0 +1,124 @@
+[{
+  "_id": {
+    "$oid": "670f8b283474da0eb70cd38a"
+  },
+  "Booking_Checkin": "670f8b1a3474da0eb70cd389",
+  "NgayLap": "2024-10-20",
+  "ThanhToan": 3200000,
+  "TinhTrang": "Đã hủy",
+  "DanhSachDichVuDaSuDung": [],
+  "updated_at": {
+    "$date": "2024-10-16T09:49:48.681Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T09:45:12.283Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670fa40ad5595dd17d06dfb4"
+  },
+  "Booking_Checkin": "670fa3e6d5595dd17d06dfb3",
+  "NgayLap": "2024-10-16",
+  "ThanhToan": 50000,
+  "TinhTrang": "Đã thanh toán",
+  "DanhSachDichVuDaSuDung": [
+    {
+      "DichVu": "6707d0760e03370a13a6e907",
+      "SoLuong": 17,
+      "DonGia": 850000
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-16T11:54:14.232Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:31:22.559Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670fa694d5595dd17d06dfb6"
+  },
+  "Booking_Checkin": "670fa676d5595dd17d06dfb5",
+  "NgayLap": "2024-10-20",
+  "ThanhToan": 4900000,
+  "TinhTrang": "Đã thanh toán",
+  "DanhSachDichVuDaSuDung": [
+    {
+      "DichVu": "6707d0760e03370a13a6e908",
+      "SoLuong": 6,
+      "DonGia": 1800000
+    },
+    {
+      "DichVu": "6707d0760e03370a13a6e909",
+      "SoLuong": 4,
+      "DonGia": 2000000
+    },
+    {
+      "DichVu": "6707d0760e03370a13a6e90a",
+      "SoLuong": 3,
+      "DonGia": 300000
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-16T11:49:48.789Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:42:12.364Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670fa711d5595dd17d06dfb8"
+  },
+  "Booking_Checkin": "670fa6fed5595dd17d06dfb7",
+  "NgayLap": "2024-10-20",
+  "ThanhToan": 5500000,
+  "TinhTrang": "Đã thanh toán",
+  "DanhSachDichVuDaSuDung": [
+    {
+      "DichVu": "6707d0760e03370a13a6e907",
+      "SoLuong": 2,
+      "DonGia": 100000
+    },
+    {
+      "DichVu": "6707d0760e03370a13a6e908",
+      "SoLuong": 2,
+      "DonGia": 600000
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-16T11:57:16.361Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:44:17.532Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670faad6a33416744c0bf2d3"
+  },
+  "Booking_Checkin": "670faab9a33416744c0bf2d2",
+  "NgayLap": "2024-10-16",
+  "ThanhToan": 17305000,
+  "TinhTrang": "Đã thanh toán",
+  "DanhSachDichVuDaSuDung": [
+    {
+      "DichVu": "6707d0760e03370a13a6e90b",
+      "SoLuong": 1,
+      "DonGia": 5000
+    },
+    {
+      "DichVu": "6707d0760e03370a13a6e909",
+      "SoLuong": 1,
+      "DonGia": 500000
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-16T12:01:14.259Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T12:00:22.835Z"
+  }
+}]

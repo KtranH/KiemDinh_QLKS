@@ -1,0 +1,65 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'TenQuyenHan',
+        'DanhSachQuyenHan',
+        'DanhSachTaiKhoan'
+      ],
+      properties: {
+        TenQuyenHan: {
+          bsonType: 'string',
+          'enum': [
+            'Admin',
+            'Super Admin'
+          ]
+        },
+        DanhSachQuyenHan: {
+          bsonType: 'array',
+          items: {
+            bsonType: 'string'
+          }
+        },
+        DanhSachTaiKhoan: {
+          bsonType: 'array',
+          items: {
+            bsonType: 'object',
+            required: [
+              'TenNhanVien',
+              'NgaySinh',
+              'NgayVaoLam',
+              'SDT',
+              'Email',
+              'DiaChi',
+              'CMND',
+              'MatKhau',
+              'IsDelete'
+            ],
+            properties: {
+              TenNhanVien: {
+                bsonType: 'string'
+              },
+              SDT: {
+                bsonType: 'string'
+              },
+              Email: {
+                bsonType: 'string'
+              },
+              DiaChi: {
+                bsonType: 'string'
+              },
+              CMND: {
+                bsonType: 'string'
+              },
+              MatKhau: {
+                bsonType: 'string'
+              },
+              IsDelete: {
+                bsonType: 'int'
+              }
+            }
+          }
+        }
+      }
+    }
+  }

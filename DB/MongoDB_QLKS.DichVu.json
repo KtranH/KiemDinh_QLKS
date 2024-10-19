@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "6707d0760e03370a13a6e907"
+  },
+  "TenDichVu": "Giặt ủi",
+  "GiaDichVu": 50000,
+  "MoTa": "Giặt và ủi quần áo, giao trả trong vòng 24 giờ",
+  "TinhTrang": 1
+},
+{
+  "_id": {
+    "$oid": "6707d0760e03370a13a6e908"
+  },
+  "TenDichVu": "Đưa đón sân bay",
+  "GiaDichVu": 300000,
+  "MoTa": "Dịch vụ xe sang đưa đón khách từ sân bay về khách sạn và ngược lại",
+  "TinhTrang": 1
+},
+{
+  "_id": {
+    "$oid": "6707d0760e03370a13a6e909"
+  },
+  "TenDichVu": "Spa",
+  "GiaDichVu": 500000,
+  "MoTa": "Dịch vụ massage và chăm sóc da mặt cao cấp",
+  "TinhTrang": 1
+},
+{
+  "_id": {
+    "$oid": "6707d0760e03370a13a6e90a"
+  },
+  "TenDichVu": "Thuê xe đạp",
+  "GiaDichVu": 100000,
+  "MoTa": "Thuê xe đạp khám phá thành phố, giá cho 4 giờ đầu tiên",
+  "TinhTrang": 1
+},
+{
+  "_id": {
+    "$oid": "6707d0760e03370a13a6e90b"
+  },
+  "TenDichVu": "Minibar",
+  "GiaDichVu": 5000,
+  "MoTa": "Đồ uống và snack trong tủ lạnh, tính phí theo mục sử dụng",
+  "TinhTrang": 1,
+  "updated_at": {
+    "$date": "2024-10-11T18:44:48.863Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670972cc3dbb97331d07fb72"
+  },
+  "TenDichVu": "Test",
+  "GiaDichVu": 5000,
+  "MoTa": "Test",
+  "TinhTrang": 1,
+  "updated_at": {
+    "$date": "2024-10-11T18:56:10.903Z"
+  },
+  "created_at": {
+    "$date": "2024-10-11T18:47:40.262Z"
+  }
+}]

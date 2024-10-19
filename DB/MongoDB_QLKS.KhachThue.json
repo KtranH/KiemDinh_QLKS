@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6707d0b40e03370a13a6e90c"
+  },
+  "TenKhachHang": "Phạm Văn Đức",
+  "CMND": "001089123456",
+  "SDT": "0987654321"
+},
+{
+  "_id": {
+    "$oid": "6707d0b40e03370a13a6e90d"
+  },
+  "TenKhachHang": "Nguyễn Thị Em",
+  "CMND": "079192345678",
+  "SDT": "0976543210"
+},
+{
+  "_id": {
+    "$oid": "6707d0b40e03370a13a6e90e"
+  },
+  "TenKhachHang": "Trần Văn Fong",
+  "CMND": "025187654321",
+  "SDT": "0965432109"
+},
+{
+  "_id": {
+    "$oid": "6707d0b40e03370a13a6e90f"
+  },
+  "TenKhachHang": "Lê Thị Giang",
+  "CMND": "033289012345",
+  "SDT": "0954321098"
+},
+{
+  "_id": {
+    "$oid": "6707d0b40e03370a13a6e910"
+  },
+  "TenKhachHang": "Hoàng Văn Huy",
+  "CMND": "064190123456",
+  "SDT": "0943210987"
+},
+{
+  "_id": {
+    "$oid": "670cbfceac414970590a6b4e"
+  },
+  "CMND": "45646789412",
+  "TenKhachHang": "Test",
+  "SDT": "1234564258",
+  "updated_at": {
+    "$date": "2024-10-14T06:53:02.872Z"
+  },
+  "created_at": {
+    "$date": "2024-10-14T06:53:02.872Z"
+  }
+}]

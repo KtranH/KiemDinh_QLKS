@@ -1,0 +1,48 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'Booking_Checkin',
+        'NgayLap',
+        'ThanhToan',
+        'TinhTrang',
+        'DanhSachDichVuDaSuDung'
+      ],
+      properties: {
+        Booking_Checkin: {
+          bsonType: 'string'
+        },
+        NgayLap: {
+          bsonType: 'string'
+        },
+        ThanhToan: {
+          bsonType: 'double'
+        },
+        TinhTrang: {
+          bsonType: 'string'
+        },
+        DanhSachDichVuDaSuDung: {
+          bsonType: 'array',
+          items: {
+            bsonType: 'object',
+            required: [
+              'DichVu',
+              'SoLuong',
+              'DonGia'
+            ],
+            properties: {
+              DichVu: {
+                bsonType: 'string'
+              },
+              SoLuong: {
+                bsonType: 'int'
+              },
+              DonGia: {
+                bsonType: 'double'
+              }
+            }
+          }
+        }
+      }
+    }
+  }

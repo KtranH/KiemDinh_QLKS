@@ -1,0 +1,25 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'TenDichVu',
+        'GiaDichVu',
+        'MoTa',
+        'TinhTrang'
+      ],
+      properties: {
+        TenDichVu: {
+          bsonType: 'string'
+        },
+        GiaDichVu: {
+          bsonType: 'double'
+        },
+        MoTa: {
+          bsonType: 'string'
+        },
+        TinhTrang: {
+          bsonType: 'int'
+        }
+      }
+    }
+  }

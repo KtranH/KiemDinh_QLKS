@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "6707cd9169824d136a650783"
+  },
+  "TenQuyenHan": "Super Admin",
+  "DanhSachQuyenHan": [
+    "truy cập tất cả collection",
+    "truy cập collection NguoiDung"
+  ],
+  "DanhSachTaiKhoan": [
+    {
+      "TenNhanVien": "Nguyễn Văn Anh",
+      "NgaySinh": "2003-02-02",
+      "NgayVaoLam": "2024-01-01",
+      "SDT": "0901234567",
+      "Email": "anhnv@hotel.com",
+      "DiaChi": "123 Nguyễn Huệ, Q1, TP.HCM",
+      "CMND": "079190001234",
+      "MatKhau": "$2y$12$cEYU0XL.hQ4rLX.LG0YEz.vwlDkAQo/uXDrU.x9drs1FzS5X/AKw.",
+      "IsDelete": 0
+    },
+    {
+      "TenNhanVien": "Test",
+      "NgaySinh": "2003-02-02",
+      "NgayVaoLam": "2024-09-30",
+      "CMND": "123456",
+      "SDT": "1234567891",
+      "Email": "TESTNV@gmail.com",
+      "MatKhau": null,
+      "DiaChi": "test",
+      "IsDelete": 1
+    },
+    {
+      "TenNhanVien": "Test3",
+      "NgaySinh": "2000-05-02",
+      "NgayVaoLam": "2024-10-15",
+      "CMND": "666555444",
+      "SDT": "975641355",
+      "Email": "TESTNV123@gmail.com",
+      "MatKhau": "$2y$12$C2OxIDpd/2/bDnpApVevzevKYT8P8G/vwEd2/TA4reHBrOr.V6Rwi",
+      "DiaChi": "Test",
+      "IsDelete": 0
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-12T12:03:39.905Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670a38bca5c3282b8ad310cf"
+  },
+  "TenQuyenHan": "Admin",
+  "DanhSachQuyenHan": [
+    "truy cập tất cả collection"
+  ],
+  "DanhSachTaiKhoan": [
+    {
+      "TenNhanVien": "Trần Thị Bình",
+      "NgaySinh": "2000-05-25",
+      "NgayVaoLam": "2024-06-25",
+      "SDT": "0912345678",
+      "Email": "binhtt@hotel.com",
+      "DiaChi": "456 Lê Lợi, Q3, TP.HCM",
+      "CMND": "079192002345",
+      "MatKhau": "hashed_password_here",
+      "IsDelete": 0
+    },
+    {
+      "TenNhanVien": "Lê Văn Cường",
+      "NgaySinh": "2001-12-12",
+      "NgayVaoLam": "2023-01-25",
+      "SDT": "0923456789",
+      "Email": "cuonglv@hotel.com",
+      "DiaChi": "789 Hai Bà Trưng, Q1, TP.HCM",
+      "CMND": "079188003456",
+      "MatKhau": "$2y$12$cEYU0XL.hQ4rLX.LG0YEz.vwlDkAQo/uXDrU.x9drs1FzS5X/AKw.",
+      "IsDelete": 0
+    }
+  ],
+  "updated_at": {
+    "$date": "2024-10-12T11:20:17.113Z"
+  }
+}]

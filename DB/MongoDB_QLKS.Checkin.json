@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "670f8b1a3474da0eb70cd389"
+  },
+  "NhanVienLap": "079190001234",
+  "Phong": "STD101",
+  "NgayCheckin": "2024-10-16",
+  "NgayCheckOutDuKien": "2024-10-20",
+  "DanhSachKhachHang": [
+    "001089123456"
+  ],
+  "TinhTrang": "Đã hủy",
+  "updated_at": {
+    "$date": "2024-10-16T09:49:48.679Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T09:44:58.618Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670fa034d5595dd17d06dfb2"
+  },
+  "NhanVienLap": "079190001234",
+  "Phong": "STD101",
+  "NgayCheckin": "2024-10-16",
+  "NgayCheckOutDuKien": "2024-10-20",
+  "DanhSachKhachHang": [],
+  "TinhTrang": "Chờ xác nhận",
+  "updated_at": {
+    "$date": "2024-10-16T11:15:00.885Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:15:00.885Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670fa3e6d5595dd17d06dfb3"
+  },
+  "NhanVienLap": "079190001234",
+  "Phong": "STD102",
+  "NgayCheckin": "2024-10-16",
+  "NgayCheckOutDuKien": "2024-10-16",
+  "DanhSachKhachHang": [
+    "079192345678"
+  ],
+  "TinhTrang": "Đã thanh toán",
+  "updated_at": {
+    "$date": "2024-10-16T11:38:25.174Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:30:46.889Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670fa676d5595dd17d06dfb5"
+  },
+  "NhanVienLap": "079190001234",
+  "Phong": "STD102",
+  "NgayCheckin": "2024-10-16",
+  "NgayCheckOutDuKien": "2024-10-20",
+  "DanhSachKhachHang": [
+    "079192345678"
+  ],
+  "TinhTrang": "Đã thanh toán",
+  "updated_at": {
+    "$date": "2024-10-16T11:42:55.056Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:41:42.722Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670fa6fed5595dd17d06dfb7"
+  },
+  "NhanVienLap": "079190001234",
+  "Phong": "DLX302",
+  "NgayCheckin": "2024-10-16",
+  "NgayCheckOutDuKien": "2024-10-20",
+  "DanhSachKhachHang": [
+    "079192345678"
+  ],
+  "TinhTrang": "Đã thanh toán",
+  "updated_at": {
+    "$date": "2024-10-16T11:57:16.359Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:43:58.033Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670faab9a33416744c0bf2d2"
+  },
+  "NhanVienLap": "079190001234",
+  "Phong": "SUT601",
+  "NgayCheckin": "2024-10-16",
+  "NgayCheckOutDuKien": "2024-10-22",
+  "DanhSachKhachHang": [
+    "45646789412"
+  ],
+  "TinhTrang": "Đã thanh toán",
+  "updated_at": {
+    "$date": "2024-10-16T12:01:14.257Z"
+  },
+  "created_at": {
+    "$date": "2024-10-16T11:59:53.122Z"
+  }
+}]
