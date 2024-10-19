@@ -106,57 +106,60 @@
           </div><!-- End Customers Card -->
           
                   <!-- Website Traffic -->
-          <div class="card" style="border-radius:20px">
+          <div class="col-12">
+            <div class="card recent-sales overflow-auto" style="border-radius:20px">
 
-            <div class="card-body pb-0">
-              <h5 class="card-title" style="margin-top:-10px; font-family: 'Montserrat', sans-serif;
-              font-optical-sizing: auto;
-              font-weight: 600;
-              font-style: normal;
-              font-size: 14px;">Dịch vụ được sử dụng nhiều nhất <span>| Tất cả</span></h5>
-
-              <div id="SimpleChart" style="min-height: 400px;" class="echart"></div>
-
-              <script>
-                document.addEventListener("DOMContentLoaded", () => {
-                  echarts.init(document.querySelector("#SimpleChart")).setOption({
-                    dataset: {
-                    source: [
-                      ['score', 'amount', 'product'],
-                      @foreach ($count_Service as $item)
-                        ['{{ $item['DG'] }}', '{{ $item['SL'] }}', '{{ $item['DV'] }}'],
-                      @endforeach
-                    ]
-                  },
-                  grid: { containLabel: true },
-                  xAxis: { name: 'amount' },
-                  yAxis: { type: 'category' },
-                  visualMap: {
-                    orient: 'horizontal',
-                    left: 'center',
-                    min: 10,
-                    max: 100,
-                    text: ['High Score', 'Low Score'],
-                    // Map the score column to color
-                    dimension: 0,
-                    inRange: {
-                      color: ['#65B581', '#FFCE34', '#FD665F']
-                    }
-                  },
-                  series: [
-                    {
-                      type: 'bar',
-                      encode: {
-                        // Map the "amount" column to X axis.
-                        x: 'amount',
-                        // Map the "product" column to Y axis
-                        y: 'product'
+              <div class="card-body">
+                <h5 class="card-title" style="margin-top:-10px; font-family: 'Montserrat', sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 14px;">Dịch vụ được sử dụng nhiều nhất <span>| Tất cả</span></h5>
+  
+                <div id="SimpleChart" style="min-height: 400px;" class="echart"></div>
+  
+                <script>
+                  document.addEventListener("DOMContentLoaded", () => {
+                    echarts.init(document.querySelector("#SimpleChart")).setOption({
+                      dataset: {
+                      source: [
+                        ['score', 'amount', 'product'],
+                        @foreach ($count_Service as $item)
+                          ['{{ $item['DG'] }}', '{{ $item['SL'] }}', '{{ $item['DV'] }}'],
+                        @endforeach
+                      ]
+                    },
+                    grid: { containLabel: true },
+                    xAxis: { name: 'amount' },
+                    yAxis: { type: 'category' },
+                    visualMap: {
+                      orient: 'horizontal',
+                      left: 'center',
+                      min: 10,
+                      max: 100,
+                      text: ['High Score', 'Low Score'],
+                      // Map the score column to color
+                      dimension: 0,
+                      inRange: {
+                        color: ['#65B581', '#FFCE34', '#FD665F']
                       }
-                    }
-                  ]
-                });
-                });
-              </script>
+                    },
+                    series: [
+                      {
+                        type: 'bar',
+                        encode: {
+                          // Map the "amount" column to X axis.
+                          x: 'amount',
+                          // Map the "product" column to Y axis
+                          y: 'product'
+                        }
+                      }
+                    ]
+                  });
+                  });
+                </script>
+
+              </div>
 
             </div>
           </div><!-- End Website Traffic -->
